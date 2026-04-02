@@ -178,7 +178,7 @@
 
   <div class="narrative">
     On March 15, 2026, over 100 activists entered Ridglan Farms in Blue Mounds, Wisconsin
-    and openly rescued 30 beagles bred for laboratory experimentation. Eight of those dogs
+    and openly rescued 30 beagles bred for laboratory experimentation. 8 of those dogs
     were seized back by the sheriff's office and returned to the facility. 22 are now safe with loving families. The remaining
     1,970 beagles are still inside. On April 19, 2026, organizers plan to return with
     2,000 rescuers &mdash; one for every dog.
@@ -189,12 +189,12 @@
     <div class="legend-item">
       <div class="legend-swatch" style="background: var(--rescued)"></div>
       <span>Rescued!</span>
-      <span class="legend-count" style="color: var(--rescued)">8</span>
+      <span class="legend-count" style="color: var(--rescued)">22</span>
     </div>
     <div class="legend-item">
       <div class="legend-swatch" style="background: var(--seized)"></div>
       <span>Seized by Sheriff's Office</span>
-      <span class="legend-count" style="color: var(--seized)">22</span>
+      <span class="legend-count" style="color: var(--seized)">8</span>
     </div>
     <div class="legend-item">
       <div class="legend-swatch" style="background: var(--hostage)"></div>
@@ -220,8 +220,8 @@
 <script>
 // ── Data ──
 const data = [
-  ...Array(8).fill({ status: "Rescued!", color: "#4ade80" }),
-  ...Array(22).fill({ status: "Seized by Sheriff's Office", color: "#f59e0b" }),
+  ...Array(22).fill({ status: "Rescued!", color: "#4ade80" }),
+  ...Array(8).fill({ status: "Seized by Sheriff's Office", color: "#f59e0b" }),
   ...Array(1970).fill({ status: "Held Hostage at Ridglan Farms", color: "#dc2626" }),
 ];
 
