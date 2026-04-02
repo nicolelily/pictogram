@@ -1,0 +1,2 @@
+- [user_profile.md](user_profile.md) — Nicole Mark, data viz practitioner doing #30DayChartChallenge 2026 (animal welfare theme)
+- [feedback_icon_sizing.md](feedback_icon_sizing.md) — For pictogram charts, start with larger icons (28px+) and correct aspect ratios
